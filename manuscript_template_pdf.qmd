@@ -1,0 +1,68 @@
+---
+title: "Manuscript Title"
+author:
+  - name: "Your Name"
+    affiliation: "Your Institution"
+    email: "your.email@example.com"
+  - name: "Co-Author Name"
+    affiliation: "Co-Author Institution"
+bibliography: Example.bib
+csl: north-american-journal-of-fisheries-management.csl
+abstract: |
+  A concise summary of the objectives, methods, results, and conclusions.
+keywords: ["Fish Biology", "Habitat Restoration", "Ecological Modeling"]
+fontsize: 12pt
+linestretch: 1.5
+mainfont: "Times New Roman"
+sansfont: "Arial"
+monofont: "Courier New"
+papersize: letter
+geometry: "margin=1in"
+lang: "en"
+header-includes:
+  - \usepackage{graphicx}
+footer-includes:
+  - \pagebreak
+appendix:
+  - Appendix A: Detailed Calculations
+  - Appendix B: Supplementary Figures
+link-citations: true
+linkcolor: blue
+
+format:
+  pdf:
+    pdf-engine: pdflatex
+    number-sections: true
+    fig-cap-location: bottom
+---
+
+
+# Abstract
+
+# Introduction
+
+-   Research context and questions
+-   Importance of the study
+- [@fisherPresentStatusCentral1994]
+- [@satterthwaiteComparisonTemporalPatterns2013]
+- [@yoshiyamaChinookSalmonCalifornia2000]
+
+# Methods
+
+-   Study site
+-   Sampling design (e.g., electrofishing, telemetry)
+-   Data processing and statistical analysis
+
+# Results
+
+-   Summary statistics
+-   Model outputs (e.g., integrated population models)
+
+# Discussion
+
+-   Interpretations and comparisons
+-   Implications for conservation and management
+
+# Acknowledgments
+
+# References

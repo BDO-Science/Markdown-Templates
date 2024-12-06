@@ -1,0 +1,83 @@
+\documentclass[12pt]{article}
+
+% Packages
+\usepackage[utf8]{inputenc}   % For UTF-8 encoding
+\usepackage{graphicx}         % For including graphics
+\usepackage{amsmath, amssymb} % For mathematical symbols and equations
+\usepackage{setspace}         % For setting line spacing
+\usepackage{geometry}         % For adjusting page margins
+\usepackage{natbib}           % For citation formatting
+\usepackage{lineno}           % For adding line numbers
+\usepackage{hyperref}         % For hyperlinks
+\usepackage{times}            % For Times New Roman font
+
+% Page Layout
+\geometry{letterpaper, margin=1in}
+\setlength{\parindent}{0.5in} % Paragraph indentation
+\setlength{\parskip}{0pt}     % Space between paragraphs
+
+% Begin Document
+\begin{document}
+
+% Title Page
+\title{Manuscript Title}
+\author{
+    Your Name\textsuperscript{1} \\
+    Co-Author Name\textsuperscript{2} \\
+    \\
+    \textsuperscript{1}Your Institution, Address, City, Country \\
+    \textsuperscript{2}Co-Author Institution, Address, City, Country \\
+    \\
+    Corresponding Author: Your Name \\
+    Email: your.email@example.com
+}
+\date{}
+\maketitle
+
+% Abstract and Keywords
+\begin{abstract}
+A concise summary of the objectives, methods, results, and conclusions.
+\end{abstract}
+
+\noindent\textbf{Keywords:} Fish Biology, Habitat Restoration, Ecological Modeling
+
+% Line Spacing
+\doublespacing
+
+% Main Text
+\section{Introduction}
+Introduce the research question, context, and objectives. Reference prior studies using \citet{example_reference}.
+
+\section{Methods}
+Describe the study design, data collection methods, and statistical analyses.
+
+\section{Results}
+Present the key findings, including tables and figures.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{figure1.eps}
+    \caption{Caption for the figure.}
+    \label{fig:figure1}
+\end{figure}
+
+\section{Discussion}
+Interpret the findings in the context of previous studies and implications for fisheries management.
+
+\section{Acknowledgments}
+Acknowledge funding sources, collaborators, and contributors.
+
+% References
+\bibliographystyle{afsbib} % AFS bibliography style
+\bibliography{Example}     % Your BibTeX file
+
+% Appendices
+\appendix
+\section{Appendix A: Detailed Calculations}
+Include supplementary material or detailed calculations here.
+
+\section{Appendix B: Supplementary Figures}
+Include additional figures or tables here.
+
+% End Document
+\end{document}
